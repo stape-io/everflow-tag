@@ -1,5 +1,5 @@
 homepage: 'https://stape.io/'
 documentation: 'https://github.com/stape-io/everflow-tag'
 versions:
-  - sha: d05024ee14ec06b2dd0159d7414577324233ff6e
+  - sha: 31643d115d2e58f7a77b2c2b5d2a0815f4c6a649
     changeNotes: Initial release.
