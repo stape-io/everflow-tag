@@ -170,7 +170,7 @@ function shouldExitEarly(data, eventData) {
     return true;
   }
 
-  if (data.type === 'conversion' && !data.postbackUrl.match('nid=[^&]+')) {
+  if (data.type === 'conversion' && !data.postbackUrl.match('[?&]nid=[^&]+')) {
     log({
       Name: 'Everflow',
       Type: 'Message',
