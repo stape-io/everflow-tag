@@ -1,5 +1,7 @@
 homepage: 'https://stape.io/'
 documentation: 'https://github.com/stape-io/everflow-tag'
 versions:
+  - sha: 180761a258c0d595e1321c7d104ce9dcbc45f2fc
+    changeNotes: Improve validation of missing 'nid' parameter.
   - sha: 31643d115d2e58f7a77b2c2b5d2a0815f4c6a649
     changeNotes: Initial release.
