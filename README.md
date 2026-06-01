@@ -40,14 +40,6 @@ This server-side tag allows you to track Everflow conversions via server-to-serv
 - **Use Optimistic Scenario**: Check to fire the tag success trigger regardless of the actual API result.
 - **Ad Storage Consent**: Choose "Send data in case marketing consent given" to abort execution if `ad_storage` is not granted.
 
-### 3. Logging
-
-- **Logs Settings**: Options to log to console "Always", "Never", or during "Debug and preview".
-- **BigQuery Logs**: Enable to log full event data to a BigQuery table.
-- **Project ID**: Defaults to `GOOGLE_CLOUD_PROJECT` environment variable if empty.
-- **Dataset ID**: Required.
-- **Table ID**: Required.
-
 ## Open Source
 
 The **Everflow Tag for GTM Server Side** is developed and maintained by the [Stape Team](https://stape.io/) under the Apache 2.0 license.
